@@ -1,0 +1,79 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 12px;
+    height: 120px;
+    width: 100%;
+    box-shadow:0px 1px 3px 0px rgba(0,0,0,0.10) ,8px 1px 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.top>h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #D1D5DB;
+}
+
+.btm {
+    width: 100%;
+    max-width: 1024px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid #acacac;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: #111111;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.bar{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bar > button{
+    border: none;
+    width: 165px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#fff;
+    background-color: black;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.ing-list{
+    font-family: 'Inter' ,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 80px;
+    width: 100%;
+    max-width: 1024px;
+}
