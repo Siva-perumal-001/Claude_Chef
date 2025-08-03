@@ -142,3 +142,28 @@
     cursor: pointer;
     border: none;
 }
+
+.final-recipe{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.op-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suggested-recipe-container > p,li {
+    color: #475467;
+    font-size: 18px;
+    font-family: 'inter',serif;
+}
+
+.suggested-recipe-container > strong,h3{
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: 'inter',serif;
+}
