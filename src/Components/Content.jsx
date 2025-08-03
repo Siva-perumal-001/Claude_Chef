@@ -25,7 +25,7 @@ function Content() {
         <>
             <form className='btm' action={addIngredient}>
                 <div className='bar'>
-                    <input className='search' type="text" name="ingredient" placeholder='e.g Chicken' autoComplete='off' />
+                    <input className='search' type="text" name="ingredient" placeholder='e.g Chicken' autoComplete='off' required />
                     <button>+ Add Ingredient</button>
                 </div>
             </form>
