@@ -26,10 +26,8 @@
 .btm {
     width: 100%;
     max-width: 1024px;
-    height: 130px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 20px auto;
+    padding: 10px 0 10px 0;
 }
 
 .search {
@@ -69,9 +67,29 @@
     margin-right: 20px;
 }
 
-.ing-list{
-    font-family: 'Inter' ,sans-serif;
+.ingredient{
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.onHand{
+    margin-left: 45px;
+}
+
+.ing-list {
+    width: 90%;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
-    font-weight: 600;
-    padding-left: 80px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    color: #161515;
+}
+
+.list-item{
+    margin-left: 40px;
+    padding-bottom:8px;
 }
