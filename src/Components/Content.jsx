@@ -29,7 +29,7 @@ function Content() {
                             toggleShown = {toggleShown}
                 />
             }
-            {recipeShown ? <Recipe /> : null}
+            {recipeShown ? <Recipe/> : null}
         </>
     )
 }
